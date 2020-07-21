@@ -1,0 +1,18 @@
+<html>
+   <body>
+         <form method="get" action="check">
+               {{from.weight.errors}}   
+               <label for="{{form.weight.id_for_label}}">Enter your weight :</label>
+               {{form.weight}}
+               <br>
+               {{from.height.errors}}  
+               <label for="{{form.height.id_for_label}}">Enter your height :</label>
+               {{form.height}}
+               <br>
+               <br>
+               <input type="submit" value="calculate">
+      
+      
+             </form>
+     </body>
+</html>
